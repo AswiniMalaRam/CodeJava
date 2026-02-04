@@ -9,16 +9,16 @@ class TestClass {
         T = sc.nextInt();
         for(int i=0;i<T;i++)
         {      
-            ArrayList<Integer> list = new ArrayList<>();     
+            ArrayList<Integer> list = new ArrayList<>();    //to store array input
             N = sc.nextInt();
             for(int j=0;j<N;j++)
             {
-                int ele = sc.nextInt();
+                int ele = sc.nextInt();   //to store element
                 list.add(ele);       
             }
              if (!list.isEmpty()) 
              {
-                int mini = Collections.min(list);
+                int mini = Collections.min(list);   //to find the minimum value
                  System.out.println(mini);
             }
            
